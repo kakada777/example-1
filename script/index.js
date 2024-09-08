@@ -45,7 +45,7 @@ $(document).ready(() => new Controller());
             let html = "";
             data.map(v => {
                 html += `
-                    <div>
+                    <div >
                          <img class="h-auto max-w-full rounded-lg" src="${v.Image}" alt="">
                     </div>
                 `
@@ -123,6 +123,30 @@ $(document).ready(() => new Controller());
                     price : '32$',
                     Image: "https://flowbite.s3.amazonaws.com/docs/gallery/square/image-7.jpg"
                 },
+                {
+                    Name: "Blood Test Tub",
+                    Type: "male",
+                    price : '32$',
+                    Image: "./Pic shose/shoes-1.jpg"
+                },
+                {
+                    Name: "Blood Test Tub",
+                    Type: "male",
+                    price : '32$',
+                    Image: "./Pic shose/shoes-2.jpg"
+                },
+                {
+                    Name: "Blood Test Tub",
+                    Type: "male",
+                    price : '32$',
+                    Image: "./Pic shose/shoes-3.jpg"
+                },
+                {
+                    Name: "Nike Air",
+                    Type: "male",
+                    price : '50$',
+                    Image: "./Pic shose/shoes-4.jpg"
+                },
             ]
         this.data1 = [
             {
@@ -154,80 +178,77 @@ $(document).ready(() => new Controller());
                 Name: "Blood Test Tub",
                 Type: "female",
                 price : '75$',
-                Image: "./girl shoes/girl3.png"
+                Image: "https://flowbite.s3.amazonaws.com/docs/gallery/square/image-4.jpg"
             },
             {
                 Name: "Blood Test Tub",
                 Type: "female",
                 price : '39$',
-                Image: "./ img index/pic6.png"
+                Image: "https://flowbite.s3.amazonaws.com/docs/gallery/square/image-6.jpg"
             },
             {
                 Name: "Blood Test Tub",
                 Type: "female",
                 price : '24$',
-                Image: "./girl shoes/girl4.png"
+                Image: "https://flowbite.s3.amazonaws.com/docs/gallery/square/image-2.jpg"
             },
             {
                 Name: "Blood Test Tub",
                 Type: "female",
                 price : '26$',
-                Image: "./ img index/pic8.png"
+                Image: "https://flowbite.s3.amazonaws.com/docs/gallery/square/image-6.jpg"
             },
             
         ]
         this.data2 = [
             {
-                Name: "Blood Test Tub",
-                Type: "Kids",
-                price : '16$',
-                Image: "./kid shoes/kids1.png"
+                Name: "Nike Air",
+                Type: "kids",
+                price : '50$',
+                Image: "https://flowbite.s3.amazonaws.com/docs/gallery/square/image.jpg"
             },
-            
             {
+
                 Name: "Blood Test Tub",
-                Type: "Kids",
-                price : '13$',
-                Image: "./kid shoes/kids2.png"
-            },
-            
-            {
-                Name: "Blood Test Tub",
-                Type: "Kids",
-                price : '20$',
-                Image: "./kid shoes/kids3.png"
-            },
-            
-            {
-                Name: "Blood Test Tub",
-                Type: "Kids",
-                price : '25$',
-                Image: "./kid shoes/kids4.png"
-            },
-            
-            {
-                Name: "Blood Test Tub",
-                Type: "Kids",
-                price : '26$',
-                Image: "./kid shoes/kids5.png"
+                Type: "kids",
+                price : '45$',
+                Image: "https://flowbite.s3.amazonaws.com/docs/gallery/square/image-1.jpg"
             },
             {
                 Name: "Blood Test Tub",
-                Type: "Kids",
-                price : '10$',
-                Image: "./kid shoes/kids6.png"
+                Type: "kids",
+                price : '29$',
+                Image: "https://flowbite.s3.amazonaws.com/docs/gallery/square/image-2.jpg"
             },
             {
                 Name: "Blood Test Tub",
-                Type: "Kids",
-                price : '30$',
-                Image: "./kid shoes/kids7.png"
+                Type: "kids",
+                price : '61$',
+                Image: "https://flowbite.s3.amazonaws.com/docs/gallery/square/image-3.jpg"
             },
             {
                 Name: "Blood Test Tub",
-                Type: "Kids",
-                price : '16$',
-                Image: "./kid shoes/kids8.png"
+                Type: "kids",
+                price : '61$',
+                Image: "https://flowbite.s3.amazonaws.com/docs/gallery/square/image-4.jpg"
+            },
+            {
+                Name: "Blood Test Tub",
+                Type: "kids",
+                price : '76$',
+                Image: "https://flowbite.s3.amazonaws.com/docs/gallery/square/image-8.jpg"
+            },
+            {
+                Name: "Blood Test Tub",
+                Type: "kids",
+                price : '55$',
+                Image: "https://flowbite.s3.amazonaws.com/docs/gallery/square/image-6.jpg"
+            },
+            {
+                Name: "Blood Test Tub",
+                Type: "kids",
+                price : '32$',
+                Image: "https://flowbite.s3.amazonaws.com/docs/gallery/square/image-7.jpg"
             },
         ]
     }
